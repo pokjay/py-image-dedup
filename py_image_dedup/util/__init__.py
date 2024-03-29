@@ -5,7 +5,7 @@ import traceback
 import click
 
 LOGGER = logging.getLogger(__name__)
-LOGGER.setLevel(logging.DEBUG)
+LOGGER.setLevel(logging.INFO)
 
 
 def echo(text: str = "", color=None):

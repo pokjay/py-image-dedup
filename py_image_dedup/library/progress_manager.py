@@ -3,7 +3,7 @@ import logging
 from tqdm import tqdm
 
 LOGGER = logging.getLogger(__name__)
-LOGGER.setLevel(logging.DEBUG)
+LOGGER.setLevel(logging.WARNING)
 
 
 class ProgressManager:
